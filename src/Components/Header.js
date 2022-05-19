@@ -1,10 +1,10 @@
 import React from 'react';
-import Button from '../AtomsBasic/Button';
+import Button from './AtomsBasic/Button';
 
 function Header() {
     return ( 
         <div>
-            <Button/>
+            <Button nameButton1 = {"promociones"}/>
         </div>
      );
 }
